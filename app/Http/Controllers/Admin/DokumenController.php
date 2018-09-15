@@ -15,6 +15,7 @@ class DokumenController extends Controller
     public function index()
     {
         //
+        return view('admin.dokumen.index');
     }
 
     /**

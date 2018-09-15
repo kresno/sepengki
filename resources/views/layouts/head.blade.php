@@ -29,3 +29,6 @@
 
     <!-- Main CSS-->
     <link href="{{ asset('/admin/css/theme.css') }}" rel="stylesheet" media="all">
+
+    <!-- Own CSS-->
+    <link href="{{ asset('/css/myown.css') }}" rel="stylesheet" media="all">

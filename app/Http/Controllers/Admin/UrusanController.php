@@ -15,6 +15,7 @@ class UrusanController extends Controller
     public function index()
     {
         //
+        return view('admin.urusan.index');
     }
 
     /**

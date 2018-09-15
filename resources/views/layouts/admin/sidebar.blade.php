@@ -2,13 +2,13 @@
 <aside class="menu-sidebar d-none d-lg-block">
     <div class="logo">
         <a href="#">
-            <img src="{{ asset('/admin/images/icon/logo.png') }}" alt="{{crsf_token()}}" />
+            <img src="{{ asset('/admin/images/icon/logo.png') }}" alt="Sepengki" />
         </a>
     </div>
     <div class="menu-sidebar__content">
         <nav class="navbar-sidebar">
             <ul class="list-unstyled navbar__list">
-                <li class="active has-sub">
+                <li>
                     <a class="js-arrow" href="{{ route('admin_dashboard.index') }}">
                         <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                 </li>
