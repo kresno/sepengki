@@ -31,5 +31,11 @@ Route::group(['prefix' => 'admin'], function(){
   Route::resource('admin_kegiatan', 'Admin\KegiatanController');
 
   Route::resource('admin_user', 'Admin\UserController');
+});
 
+
+Route::group(['prefix' => 'dinas'], function(){
+  Route::resource('dinas_dashboard', 'Dinas\DashboardController');
+  Route::resource('dinas_evaluasi', 'Dinas\EvaluasiController');
+  Route::resource('dinas_dokumen', 'Dinas\DokumenController');
 });
